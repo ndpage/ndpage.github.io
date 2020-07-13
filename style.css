@@ -203,6 +203,17 @@ p {
     border-radius:3px;
   }
 
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    html {
+      font-size: 22px;
+    }
+  }
 
   @media only screen and (max-width: 360px) {
     body{

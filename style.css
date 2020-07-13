@@ -67,7 +67,7 @@ p {
     padding: 0px;
     text-align: left;
     color: whitesmoke;
-    font-size: 48px;
+    font-size: calc(36px + 2vmin);
     font-family: var(--font-header, sans-serif); 
   }
   .body-icon-link-flexbox{
@@ -139,16 +139,6 @@ p {
     width: 85%;
   }
 
-  
-
-  button{
-    margin: 5px;
-    width: 150px;
-    height: 50px;
-    align-self: center;
-    border-radius: 10px;
-  }
-
   .btn-home{
     position: absolute;
     right: 0;
@@ -190,8 +180,8 @@ p {
     font-style: normal;
     font-size: 11px;
   }
-  .footer-link-unsplash{
-    
+
+  .footer-link-unsplash{    
     background-color:black;
     color:white;
     text-decoration:none;
@@ -204,13 +194,13 @@ p {
   }
 
   @media screen and (min-width: 320px) {
-    body {
+    .body-main {
       font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     }
   }
   
   @media screen and (min-width: 1200px) {
-    body {
+    .body-main {
       font-size: 22px;
     }
   }

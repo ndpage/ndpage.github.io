@@ -94,10 +94,8 @@ p {
   }
 
  .body-header-text{
-  margin: 10px;
-  padding: 5px;
-  background: linear-gradient(to left, var(--color-royalblue, blue), white);
-  color: var(--color-darkgray);
+  margin: 10px 5px;
+  padding: 10px 5px;
   font-size: 32px;
  }
  

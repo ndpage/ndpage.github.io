@@ -10,12 +10,10 @@
   --color-royalblue: #159;
   --color-slategreen: #9df5c8;
   --font-header: source code pro;
-  --background-image: url(https://d3m7xw68ay40x8.cloudfront.net/assets/2015/11/02221549/blue-ridge.jpg);
   --footer-height: 100px;
 }
 
 html, body {
-  background-image:  var(--background-imag, green);
   background-size: cover;
 }
 

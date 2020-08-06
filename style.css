@@ -30,7 +30,8 @@ article{
   }
   
 p {
-  font-size: 18px;
+    font-size: 18px;
+    margin: 10px 20px;
   }
 
 .rounded-borders{
@@ -113,6 +114,10 @@ padding: 10px 5px;
   margin: 10px;
   width: 50%;
 }
+.body-section-2{
+  width: 90%;
+  margin: 10px;
+}
 .profile-img-box{
   margin: 5px;
 }
@@ -121,11 +126,6 @@ padding: 10px 5px;
   width: 100%;
   border: solid whitesmoke 3px;
   border-radius: 5%;
-}
-.body-section-2{
-  width: 90%;
-  margin: 10px;
-  padding: 5px;
 }
 .body-content-title{
     margin: 10px auto 5px auto;
@@ -169,7 +169,7 @@ padding: 10px 5px;
      align-items: center;
    }
   }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 565px) {
     .header-main{
       flex-direction: column;
       align-items: center;

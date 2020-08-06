@@ -48,15 +48,14 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: linear-gradient(to right, var(--color-royalblue, blue), lightgreen);
+    background: #363636;
   }
   .header-text-box{
     width: 250px;
     margin: 5px 5px;
+    align-items: center;
   }
   .header-text{
-    width: 100%;
-    text-align: left;
     color: whitesmoke;
     font-size: 32px;
     font-family: var(--font-header, sans-serif); 
@@ -84,8 +83,12 @@ p {
 
   .icon-link-img{
     color: black;
+    background: whitesmoke;
     width: 30px;
     margin: 5px 20px;
+    padding: 5px;
+    border: solid whitesmoke 1px;
+    border-radius: 10%;
   }
   
 .body-main{

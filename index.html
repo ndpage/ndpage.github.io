@@ -3,9 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source Code Pro" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="style.css"> 
         <title>Nathan Page</title> 
+        <link rel="icon" type="image/png" href="favicon.png">
+        <script src="script.js"></script>
     </head> 
 
     <!-- Main body for content -->
@@ -15,82 +17,77 @@
                 <h1 class="header-text">Nathan Page</h1>
             </div>
             <!-- Header Buttons --> 
-            <!-- 
-                <div class="header-btn-flexbox"> 
-                    <button class="header-button">Home</button>                
-                    <button class="header-button">Projects</button>
-                </div>
-            -->
+            <div class="header-btn-flexbox"> 
+                <button class="header-button rounded-borders" id="home-btn">Home</button>                
+                <button class="header-button rounded-borders">Projects</button>
+            </div>
             <!-- Social icons -->
             <div class="header-icon-flexbox">   
                 <a  href="http://www.github.com/ndpage" title="Click to check out Nathan's Github" target="_blank">
                     <img class="icon-link-img" src="github-logo.svg"  alt="Nathan's Github" />
                     <title>Nathan's Github</title>
                 </a>
-                <a  href="http://www.linkedin.com/in/nathan-page-2018" title="Click to check out Nathan's LinkedIn" target="_blank">
+                <a  href="https://www.linkedin.com/in/nathanpage2/" title="Click to check out Nathan's LinkedIn" target="_blank">
                     <img class="icon-link-img" src="linkedin-logo.svg"  alt="Nathan's LinkedIn" />
                     <title>Nathan's LinkedIn</title>
                 </a>
-                <a  href="https://stackoverflow.com/story/nathan-page-2018" title="Click to check out Nathan's Stack Overflow" target="_blank">
-                    <img class="icon-link-img" src="stack-overflow-logo.svg"  alt="Nathan's Stack Overflow" />
-                    <title>Nathan's Stack Overflow</title>
-                </a>
-        </div>  
+            </div> 
         </header> 
         
     <!-- Main body content section -->
     <div class="body-main" id="content-main">  
         <!-- Profile picture section-->   
         <div class="body-section-1">
-            <div class="profile-img-box">   
-                <img src="/new_profile.jpeg" class="profile-img" alt="Nathan Page's profile picture" title="Nathan's profile picture"/> 
+            <div class="profile-img-box" id="profile-img">   
+                <img src="profile_2022.JPG" class="profile-img" alt="Nathan Page's profile picture" title="Nathan's profile picture"/> 
             </div>
         </div>
         <!-- Main content section -->
-        <div class="body-section-2">
-           
-           <!-- <h2 class="body-header-text">Introduction </h2> --> 
+        <section class="body-section-2">
+            <h2 class="body-header-text">Summary</h2>
             <article class="body-content-text rounded-borders">
-                <p> 
-                    <strong>Hello!</strong>  
-                </p>
                 <p>
-                    My name is Nathan and I am an engineer in Greenville, South Carolina with nearly three years of experience in  
-                    control systems and software development.
-                    <p>
-                        My background is primarily in control systems and embedded software in C,
-                        but I have been exploring other types of systems and software development such as web develpement. 
-                    </p>
-                    <p>
-                        I am currently learning JavaScript, HTML, and CSS.  
-                    </p>
+                    I am a control systems engineer at Bosch with over five years of experience in  
+                    control systems and software engineering for off-highway vehicles.
+                    My background primarily lies in control systems and embedded software for controls applications. 
                 </p>
                 <p> 
-                    Feel free to check out my GitHub and LinkedIn pages to see my other projects. 
+                    Feel free to connect with me on <a href="https://www.linkedin.com/in/nathanpage2/">LinkedIn</a>, and checkout my <a href="http://www.github.com/ndpage ">GitHub</a>.
                 </p>
             </article>
             
             <h2 class="body-header-text">Experience</h2>
-                <article class="body-content-text rounded-borders">   
-                <h3 class="body-content-title">June 2018 - Present</h3>
+            <article class="body-content-text rounded-borders">   
+                <div>
+                    <h2>Bosch Rexroth</h2>
+                    <h3 class="body-content-title">Control Systems Engineer at Bosch Rexroth</h3>
+                    <h4>April 2022 - Present</h4>
                     <div class="body-content"> 
                         <p>
-                            I have worked for over two years as a 
-                                <a href="https://www.google.com/search?q=what+is+mechatronics+engineering" target="_blank" title="mechatronics engineering"> mechatronics engineer</a> 
-                                at <a href="https://www.boschrexroth.com/en/xc/">Bosch Rexroth</a>, in Fountain Inn, South Carolina. 
-                                
-                            My primary responsibilites include upgrading hydraulic test stand control and data aquisition systems.
+                            My current role is a control systems engineer at <a href="http://www.boschrexroth.com">Bosch Rexroth</a> developing embedded software solutions for off-highway applications.
+                            I develop embedded software using Matlab/Simulink to control electronic/hydraulic systems for contruction machines (e.g. skid steers, graders, etc.)
                         </p>
-                        <p> 
-                            I am currently using NI LabVIEW and NI CompacRIO hardware to develop a new control and data acquisition system. 
-                            You can see more information about the project on my LinkedIn page. 
+                    </div>
+                </div>
+                <div>
+                    <h3 class="body-content-title">Mechatronics Engineer at Bosch Rexroth</h3>
+                    <h4>June 2018 - April 2022</h4>
+                    <div class="body-content"> 
+                        <p>
+                            I worked for nearly four years as a mechatronics engineer</a> 
+                            at <a href="https://www.boschrexroth.com/en/xc/">Bosch Rexroth</a>, in Fountain Inn, South Carolina. 
                             
+                            My primary responsibilites included upgrading hydraulic test stand control and data aquisition systems using NI LabVIEW and NI CompacRIO hardware.
                         </p>
                         <p> 
                             In addition to LabVIEW, I have used NI DIAdem with VBscript to program functions for other test stands in the hydraulic component test lab. 
                         </p>
                     </div>
-                <h3 class="body-content-title">August 2017 - May 2018</h3>    
+                </div>
+            
+                <div>
+                    <h3 class="body-content-title">Technical Manufacturing Intern at GE Aviation</h3>    
+                    <h4>August 2017 - May 2018</h4>
                     <div class="body-content"> 
                         <p>
                             During my last year in university, I worked as an engineering intern at GE Aviation in Asheville, North Carolina.
@@ -99,22 +96,48 @@
                             We were able to improve the cycle time and increase efficiency by modifying the process steps. 
                         </p>
                     </div>
-            
-                <h3 class="body-content-title">May 2017 - July 2017</h3>
+                </div>
+                <div>
+
+                    <h3 class="body-content-title">EID Intern Smart Factory at GE Power</h3>
+                    <h4>May 2017 - July 2017</h4>
                     <div class="body-content"> 
                         <p>
                             During the summer of 2017 I was an engineering intern at GE Power in Greenville, South Carolina.  My primary responsibilites 
-                                were to develop applications using GE Cimplicity to monitor plant power and process gas usage, and find ways to save energy and money.
+                            were to develop applications using GE Cimplicity to monitor plant power and process gas usage, and find ways to save energy and money.
                         </p>
                     </div>
-                    </article>
-            </div>     
+                </div>
+            </article>
+            <section class="sub-section">
+                <h2 class="body-header-text">Education</h2>
+                <article class="body-content-text rounded-borders">   
+                    <h3 class="body-content-title">Clemson University - M.S. of Computer Science</h3>
+                    <h4>January 2024 - Present</h4>
+                    <div class="body-content"> 
+                        <p>
+                            I am currently a graduate student at Clemson University pursing a M.S. in Computer Science. My goal is to focus on Machine Learning to further strengen my software engineering skillset. 
+                        </p>
+                    </div>
+                    <h3 class="body-content-title">UNC Asheville and NC State University - B.S. in Engineering, Mechatronics</h3>
+                    <h4>August 2014 - May 2018</h4>
+                    <div class="body-content"> 
+                        <p>
+                            I graduate in 2018 with a joint engineering degree from UNC Asheville and NC State University. 
+                            My specific concentration was mechatronics (mecahnical, eletrical and computer engineering). 
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </section>     
     </div>
 <!-- Footer Main -->               
     <footer class="footer-main">
+        <p> 
+            Copyright (c) 2020 Nathan Page. 
+        </p>
         <p class="footer-text">
-            Copyright (c) 2020 Nathan Page. Hand built by Nathan Page. Profile photo by  
-            <a href="https://www.facebook.com/caroline.page.pottery">Caroline Page</a>.
+            Profile photo by  <a href="https://www.facebook.com/caroline.page.pottery">Caroline Page</a>.
         </p>
         
         <p class="footer-text">
@@ -126,7 +149,7 @@
         </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    
     </body>
     
 </html>                     

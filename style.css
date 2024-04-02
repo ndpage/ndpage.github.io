@@ -8,7 +8,7 @@
   --color-darkgray: #363636;
   --color-royalblue: #159;
   --color-slategreen: #9df5c8;
-  --font-header: source code pro;
+  --font-header: 'source code pro';
   --footer-height: 100px;
 }
 
@@ -31,7 +31,7 @@ article{
   
 p {
     font-size: 18px;
-    margin: 10px 20px;
+    margin: 10px;
   }
 
 .rounded-borders{
@@ -48,18 +48,16 @@ p {
   .header-main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #363636;
   }
   .header-text-box{
-    width: 250px;
-    margin: 5px 5px;
+
     align-items: center;
   }
   .header-text{
     color: whitesmoke;
-    font-size: 32px;
-    font-family: var(--font-header, sans-serif); 
+    font-size: 28px;
   }
   .header-btn-flexbox{
     display: flex;
@@ -71,9 +69,13 @@ p {
     background: none;
     border: none;
     font-size: larger;
-    max-width: 150px;
-    min-width: 100px;
     color: whitesmoke;
+    padding: 1em;
+  }
+
+  .header-button:active{
+    background-color: darkgray; /* Change background color while clicked */
+    color: whitesmoke; /* Change text color while clicked */
   }
 
   .header-icon-flexbox{
@@ -91,7 +93,19 @@ p {
     border: solid whitesmoke 1px;
     border-radius: 10%;
   }
-  
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.item {
+    flex: 1; /* Distributes available space equally */
+}
+
+.small-icon {
+  ;
+}
+
 .body-main{
   display: flex;
   flex-direction: row;
@@ -119,7 +133,8 @@ padding: 10px 5px;
   margin: 10px;
 }
 .profile-img-box{
-  margin: 5px;
+  margin: 3%;
+  padding: 1rem;
 }
 
 .profile-img{
@@ -169,7 +184,7 @@ padding: 10px 5px;
      align-items: center;
    }
   }
-  @media only screen and (max-width: 565px) {
+  @media only screen and (max-width: 550px) {
     .header-main{
       flex-direction: column;
       align-items: center;

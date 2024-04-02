@@ -1,18 +1,14 @@
+// script.js
 
-
-    $('.profile-img').click(function() { //Event listener for home button 
-      alert("clicked image");
-    });
-
-    $('.projects-btn').click(function() { //Event listener for home button 
-      //var contentMain = document.getElementById("#content-main")
-    /*  
-      $.ajax(
-      { url: "http://127.0.0.1:3000/projects",
-        type: "GET",
-      success: function(result){
-          $("#content-main").html(result);
-        }
+document.addEventListener("DOMContentLoaded", function() {
+  // Add event listener once DOM is fully loaded
+  let homeButton = document.getElementById("home-btn");
+  if (homeButton) {
+      homeButton.addEventListener("click", function() {
+          // Your click event handler logic here
+          console.log("Home button clicked");
       });
-    });
-    */
+  } else {
+      console.error("Button with ID 'home-btn' not found");
+  }
+});
